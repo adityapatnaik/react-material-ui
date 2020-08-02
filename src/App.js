@@ -1,6 +1,7 @@
 import React from "react";
 import TopBar from './components/TopBar'
 import Main from './components/Main'
+import NewApp from './components/NewApp'
 import Footer from './components/Footer'
 import {makeStyles} from '@material-ui/styles'
 
@@ -17,7 +18,7 @@ export default function App() {
 
   return (
      <div className={classes.root}>
-      <TopBar title={"Aditya Patnaik"} sections={["Home","Blog","Projects","About"]}/>
+      <NewApp/>
       <Main/>
       <Footer/>
      </div>
